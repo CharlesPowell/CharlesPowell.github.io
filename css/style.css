@@ -1,0 +1,40 @@
+header{
+      text-align: center;
+      <!--background: url("http://i.imgur.com/AsdQiie.jpg?1");
+      background-size: cover;-->
+      color: #0f0;
+}
+section{
+
+}
+div{
+
+}
+#cat{
+  <img src = http://pngimg.com/upload/cat_PNG103.png>
+
+}
+#column1{
+  position:relative;
+  float:left;
+}
+#column2{
+  position:relative;
+  float:left;
+}
+footer{
+  width:100%;
+	height:80px;
+	position:absolute;
+	bottom:80%;
+	left:0;
+  text-align: center;
+}
+
+body#background {
+			background: url('http://i.imgur.com/AsdQiie.jpg?1') no-repeat 50% 50% fixed;
+			background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			-webkit-background-size: cover;
+}
