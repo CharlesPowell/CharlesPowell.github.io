@@ -1,17 +1,71 @@
-<html>
+<!Doctype HTML>
+<html lang="en">
   <head>
-    <title>Charles Powell's Page</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body id=background>
-    <header id="cat">logo goes here</header>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Charles Powell's personal website">
+    <meta name="author" content="Charles Powell">
+    <title>Chuckwagon.ninja</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="assets/base.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+    <script type="text/javascript" src="scripts/flip.js"></script>
+    <script type="text/javascript" src="scripts/jquery.flip.js"></script>
 
-    <section>
-      <div id="column1"></div>
-      <div id="column2"><a href="frogger2.html">Frogger!</a></div>
+  </head>
+
+  <body>
+    <nav class="fixed-nav-bar">
+      <div id="menu" class="menu">
+        <a class="sitename" href="chuckwagon.ninja">chuckwagon.ninja</a>
+        <!-- Example responsive navigation menu  -->
+        <a class="show" href="#menu">Menu</a><a class="hide" href="#hidemenu">Menu</a>
+        <ul class="menu-items">
+          <li><a href="#section-1">Home</a></li>
+          <li><a href="#section-2">About</a></li>
+          <li><a href="#section-3">Contact</a></li>
+          <li><a href="#">Github</a></li>
+          <li><a href="#">Facebook</a></li>
+      </ul>
+      </div>
+    </nav>
+
+    <section id="section-1" >
+      
     </section>
 
-    <footer>&copy 2015 charliepowell1@gmail.com</footer>
+
+    <section id="section-2" >
+    <h1>My Work</h1>
+    <div class="grid-container">
+      <div class="card-grid">
+        <h3>HS-Deckbuilder</h3>
+        <div class="front"><img class = 'project-img' src="assets/hs-deckbuilder.png" alt="Front" /></div>
+        <div class="back">Back</div>
+      </div>
+      <div class="card-grid">
+        <h3>RESTaurant point of sale</h3>
+        <div class="front"><img class = 'project-img' src="https://github.com/CharlesPowell/RESTaurant/blob/master/RESTaurant.png?raw=true" alt="Front" /></div>
+        <div class="back">Back</div>
+      </div>
+    </div>
+    </section>
+
+    <section id="section-3" >
+    <h1>Contact Me</h1>
+    </section>
+
+
+
+    <footer class="container">
+      <div class="footer">
+        <p>&copy; 2015 Charlie Powell</p>
+
+      </div>
+    </footer>
 
   </body>
 </html>

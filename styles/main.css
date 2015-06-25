@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  boxing-sizing: border-box;
+}
+body{
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  color:white;
+  font-size: 36pt;
+  text-align: center;
+}
+
+section{
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#section-1{
+  /*background: linear-gradient(45deg, orange, blue, green, red);*/
+  /*background: radial-gradient(circle at top right, rgba(255, 255, 255, .5), rgba(0, 0, 0, .5)),
+  url('https://download.unsplash.com/photo-1425136738262-212551713a58');
+  background-size: cover;
+  background-attachment: fixed;*/
+  background:
+    linear-gradient(135deg, #00a087 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+    linear-gradient(225deg, #00a087 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+    background-color:#00a087;
+    background-size: 64px 128px;
+    background-attachment: fixed;
+
+}
+#section-2{
+  /*background-image: url('https://download.unsplash.com/uploads/14128853230824cc16f3e/c38fccbd')*/
+  background:
+    linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+    linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+    background-color:#708090;
+    background-size: 64px 128px;
+    background-attachment: fixed;
+}
+#section-3{
+  /*background-image: url('https://download.unsplash.com/photo-1413913619092-816734eed3a7')*/
+  background:
+    linear-gradient(135deg, #ff9b03 22px, #000000 22px, #000000 24px, transparent 24px, transparent 67px, #000000 67px, #000000 69px, transparent 69px),
+    linear-gradient(225deg, #ff9b03 22px, #000000 22px, #000000 24px, transparent 24px, transparent 67px, #000000 67px, #000000 69px, transparent 69px)0 64px;
+    background-color:#ff9b03;
+    background-size: 64px 128px;
+    background-attachment: fixed;
+}
+
+.card {
+  width: 600px;
+  height: 400px;
+  margin: 20px;
+}
+.card-grid{
+  display: block;
+  position: relative;
+  float: left;
+
+  width:45%;
+  height: 50%;
+  margin: 20px;
+}
+.front, .back {
+  border: 2px gray solid;
+  padding: 0;
+}
+.front {
+  background-color: #ccc;
+}
+.back {
+  background-color: red;
+}
+.project-img{
+  max-width: 100%;
+  height: auto;
+}
