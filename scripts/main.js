@@ -1,4 +1,6 @@
 $(document).ready(function(){
+      var canvas = document.getElementById("canvas");
+      var ctx = canvas.getContext("2d");
     $('a[href^="#"]').on('click',function (e) {
         //e.preventDefault();
 
@@ -24,4 +26,11 @@ $(document).ready(function(){
       trigger: 'hover',
       reverse: true
     });
+
+    $('#section-1').click(function(){
+      ctx.fillStyle = 'rgba(0,0,0,0)'
+      ctx.fillRect(10, 10, 100, 100);
+    })
+
+
 });

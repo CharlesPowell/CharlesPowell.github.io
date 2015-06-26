@@ -1,3 +1,11 @@
+/*
+1A0D4B dark navy
+0E86C5 light blue
+F24F0A dark orange
+F39117 light orange
+46BE4B green
+*/
+
 .fixed-nav-bar {
   position: fixed;
   top: 0;
@@ -6,7 +14,7 @@
   z-index: 9999;
   width: 100%;
   height: 50px;
-  background-color: #00a087;
+  background-color: #1A0D4B;
 }
 
 /* The element at the top of the page right after the fixed navigation bar

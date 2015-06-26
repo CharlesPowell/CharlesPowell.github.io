@@ -1,3 +1,10 @@
+/*
+1A0D4B dark navy
+0C5AA6 light blue
+FF4500 dark orange
+FF9000 light orange
+00AE68 green
+*/
 *{
   margin: 0;
   padding: 0;
@@ -29,9 +36,9 @@ section{
   background-size: cover;
   background-attachment: fixed;*/
   background:
-    linear-gradient(135deg, #00a087 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
-    linear-gradient(225deg, #00a087 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
-    background-color:#00a087;
+    linear-gradient(135deg, #D6521E 22px, #000000 22px, #000000 24px, transparent 24px, transparent 67px, #000000 67px, #000000 69px, transparent 69px),
+    linear-gradient(225deg, #D6521E 22px, #000000 22px, #000000 24px, transparent 24px, transparent 67px, #000000 67px, #000000 69px, transparent 69px)0 64px;
+    background-color:#D6521E;
     background-size: 64px 128px;
     background-attachment: fixed;
 
@@ -39,9 +46,9 @@ section{
 #section-2{
   /*background-image: url('https://download.unsplash.com/uploads/14128853230824cc16f3e/c38fccbd')*/
   background:
-    linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
-    linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
-    background-color:#708090;
+    linear-gradient(135deg, #00AE68 22px, #D6521E 22px, #D6521E 24px, transparent 24px, transparent 67px, #D6521E 67px, #D6521E 69px, transparent 69px),
+    linear-gradient(225deg, #00AE68 22px, #D6521E 22px, #D6521E 24px, transparent 24px, transparent 67px, #D6521E 67px, #D6521E 69px, transparent 69px)0 64px;
+    background-color:#00AE68;
     background-size: 64px 128px;
     background-attachment: fixed;
 }
