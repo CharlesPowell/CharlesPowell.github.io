@@ -1,6 +1,7 @@
+var names = ["Chuckwagon", "Charles", "Chuckatollah of Rock and Rollah", "Charlie", "Chuck"];
+
 $(document).ready(function(){
-      var canvas = document.getElementById("canvas");
-      var ctx = canvas.getContext("2d");
+  $('#nickname').text(names[0])
     $('a[href^="#"]').on('click',function (e) {
         //e.preventDefault();
 
