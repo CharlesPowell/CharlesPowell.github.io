@@ -54,7 +54,7 @@ section{
 
 #section-1{
   text-align: center;
-  color: black;
+  color: white;
   background-color: black;
   background:
     linear-gradient(135deg, #000000 22px, #D6521E 22px, #D6521E 24px, transparent 24px, transparent 67px, #D6521E 67px, #D6521E 69px, transparent 69px),
@@ -63,6 +63,13 @@ section{
     background-size: 64px 128px;
     background-attachment: fixed;
 
+}
+.about-me{
+  font-size: 25px;
+  line-height: normal;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #section-2{
   /*background-image: url('https://download.unsplash.com/uploads/14128853230824cc16f3e/c38fccbd')*/
@@ -85,7 +92,7 @@ section{
     background-size: 64px 128px;
     background-attachment: fixed;
 }
-#name-div{
+#name-glow{
   color: #D0F8FF;
     text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
              0 0 20px #A5F1FF, 0 0 30px #A5F1FF,

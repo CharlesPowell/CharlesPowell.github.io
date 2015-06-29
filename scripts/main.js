@@ -1,4 +1,5 @@
-var names = ["Chuckwagon", "Charles", "Chuckatollah", "Charlie", "Chuck", 'Chuckles', 'Chöchi'];
+var names = ["Chuckwagon", "Charles", "Chuckatollah", "Charlie", "Chuck", 'Chuckles', 'Chöchi', 'Chuckswaggin', 'Charles in Charge'];
+nameLength = names.length
 var randomName = function(){return names[Math.floor(Math.random() * names.length)]};
 
 var nameTransition = function(){
@@ -8,6 +9,7 @@ var nameTransition = function(){
 };
 
 $(document).ready(function(){
+  //$('#section-1').css('height', screen.height.toString())
   $('#nickname').text(randomName)
 
   setInterval(nameTransition,
@@ -33,11 +35,21 @@ $(document).ready(function(){
       reverse: true
     });
 
-    $(".card-grid").flip({
-      axis: 'y',
-      trigger: 'click',
-      reverse: true
-    });
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      $(".card-grid").flip({
+        axis: 'y',
+        trigger: 'click',
+        reverse: true
+      });
+    }
+    else{
+          $(".card-grid").flip({
+            axis: 'y',
+            trigger: 'hover',
+            reverse: true
+          });
+    }
+
 
 
 
