@@ -15,7 +15,29 @@ body{
   margin: 0;
   padding: 0;
 }
+/* unvisited link */
+a:link {
+    color: #FF0000;
+    text-decoration: none;
+}
 
+/* visited link */
+a:visited {
+    color: #00FF00;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+    text-decoration: underline;
+}
 h1{
   color:white;
   font-size: 36pt;
@@ -23,6 +45,7 @@ h1{
 }
 
 section{
+  text-align: center;
   height: 700px;
   width: 100%;
   background-size: cover;
@@ -32,10 +55,11 @@ section{
 #section-1{
   text-align: center;
   color: black;
+  background-color: black;
   background:
-    linear-gradient(135deg, #D6521E 22px, #000000 22px, #000000 24px, transparent 24px, transparent 67px, #000000 67px, #000000 69px, transparent 69px),
-    linear-gradient(225deg, #D6521E 22px, #000000 22px, #000000 24px, transparent 24px, transparent 67px, #000000 67px, #000000 69px, transparent 69px)0 64px;
-    background-color:#D6521E;
+    linear-gradient(135deg, #000000 22px, #D6521E 22px, #D6521E 24px, transparent 24px, transparent 67px, #D6521E 67px, #D6521E 69px, transparent 69px),
+    linear-gradient(225deg, #000000 22px, #D6521E 22px, #D6521E 24px, transparent 24px, transparent 67px, #D6521E 67px, #D6521E 69px, transparent 69px)0 64px;
+    background-color:#000000;
     background-size: 64px 128px;
     background-attachment: fixed;
 
@@ -53,6 +77,7 @@ section{
 }
 #section-3{
   /*background-image: url('https://download.unsplash.com/photo-1413913619092-816734eed3a7')*/
+  padding-top: 50px;
   background:
     linear-gradient(135deg, #ff9b03 22px, #000000 22px, #000000 24px, transparent 24px, transparent 67px, #000000 67px, #000000 69px, transparent 69px),
     linear-gradient(225deg, #ff9b03 22px, #000000 22px, #000000 24px, transparent 24px, transparent 67px, #000000 67px, #000000 69px, transparent 69px)0 64px;
@@ -60,7 +85,15 @@ section{
     background-size: 64px 128px;
     background-attachment: fixed;
 }
-
+#name-div{
+  color: #D0F8FF;
+    text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+             0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+             0 0 40px #A5F1FF;
+}
+#nickname{
+ font-size: 300%;
+}
 .grid-container{
   width: 100% !important;
   height: 700px;
@@ -95,6 +128,7 @@ h3{
   background-color: #ccc;
 }
 .back {
+  color: white;
   background-color: rgba(1,1,1,1);
 }
 .project-img{
@@ -105,5 +139,8 @@ h3{
 @media only screen and (max-width : 800px) {
 	.card-grid{
     width: 95%;
+  }
+  #section-2{
+    height: 1800px;
   }
 }

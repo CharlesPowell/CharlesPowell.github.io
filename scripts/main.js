@@ -1,7 +1,18 @@
-var names = ["Chuckwagon", "Charles", "Chuckatollah of Rock and Rollah", "Charlie", "Chuck"];
+var names = ["Chuckwagon", "Charles", "Chuckatollah", "Charlie", "Chuck", 'Chuckles', 'Chöchi'];
+var randomName = function(){return names[Math.floor(Math.random() * names.length)]};
+
+var nameTransition = function(){
+  $("#nickname").fadeOut(function() {
+    $('#nickname').text(randomName).fadeIn();
+  })
+};
 
 $(document).ready(function(){
-  $('#nickname').text(names[0])
+  $('#nickname').text(randomName)
+
+  setInterval(nameTransition,
+    3000);
+
     $('a[href^="#"]').on('click',function (e) {
         //e.preventDefault();
 
@@ -23,15 +34,12 @@ $(document).ready(function(){
     });
 
     $(".card-grid").flip({
-      axis: 'x',
-      trigger: 'hover',
+      axis: 'y',
+      trigger: 'click',
       reverse: true
     });
 
-    $('#section-1').click(function(){
-      ctx.fillStyle = 'rgba(0,0,0,0)'
-      ctx.fillRect(10, 10, 100, 100);
-    })
+
 
 
 });
