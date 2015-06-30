@@ -82,6 +82,13 @@ section{
     background-size: 64px 128px;
     background-attachment: fixed;
 }
+.about-project{
+  font-size: 25px;
+  line-height: normal;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
 #section-3{
   /*background-image: url('https://download.unsplash.com/photo-1413913619092-816734eed3a7')*/
   padding-top: 50px;

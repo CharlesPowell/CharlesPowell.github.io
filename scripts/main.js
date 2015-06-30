@@ -9,7 +9,7 @@ var nameTransition = function(){
 };
 
 $(document).ready(function(){
-  //$('#section-1').css('height', screen.height.toString())
+  $('#section-1').css('height', screen.height.toString())
   $('#nickname').text(randomName)
 
   setInterval(nameTransition,
