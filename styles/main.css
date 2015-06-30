@@ -65,6 +65,7 @@ section{
 
 }
 .about-me{
+  padding-top: 50px;
   font-size: 25px;
   line-height: normal;
   width: 65%;
@@ -100,6 +101,7 @@ section{
     background-attachment: fixed;
 }
 #name-glow{
+  padding-top: 150px;
   color: #D0F8FF;
     text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
              0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
@@ -156,5 +158,14 @@ h3{
   }
   #section-2{
     height: 1800px;
+  }
+  #nickname{
+    font-size: 200%
+  }
+  .about-me{
+    font-size: 14px;
+  }
+  .about-project{
+    font-size: 14px;
   }
 }
