@@ -100,6 +100,10 @@ section{
     background-size: 64px 128px;
     background-attachment: fixed;
 }
+.contact-links{
+  font-size: 30px;
+  line-height: normal;
+}
 #name-glow{
   padding-top: 150px;
   color: #D0F8FF;
@@ -163,9 +167,9 @@ h3{
     font-size: 200%
   }
   .about-me{
-    font-size: 14px;
+    font-size: 18px;
   }
   .about-project{
-    font-size: 14px;
+    font-size: 18px;
   }
 }
