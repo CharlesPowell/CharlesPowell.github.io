@@ -45,14 +45,18 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
+                        <a id='portfolio-click' href="#Portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a id='contact-click' href="#Contact">Contact</a>
+                    </li>
+                    <li>
                         <a href="https://www.linkedin.com/in/chpowell1">LinkedIn</a>
                     </li>
                     <li>
                         <a href="https://github.com/CharlesPowell">Github</a>
                     </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -60,23 +64,33 @@
         <!-- /.container -->
     </nav>
 
+
     <!-- Page Content -->
     <div class="container">
 
         <!-- Portfolio Item Heading -->
-        <div class="row">
+        <div class="row current-project">
             <div class="col-lg-12">
-                <h1 id = "proj-name" class="page-header">Portfolio Item
+                <h1 id = "name-main" class="page-header">Portfolio Item
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+        <!-- Contact Item Heading -->
+        <div class="row current-contact" style='display: none'>
+            <div class="col-lg-12">
+                <h1 id = "name-main" class="page-header">Contact Info
                 </h1>
             </div>
         </div>
         <!-- /.row -->
 
+
         <!-- Portfolio Item Row -->
-        <div class="row">
+        <div class="row current-project" >
 
             <div class="col-md-8">
-                <img id='img-main' class="img-responsive" src="assets/synth.png" alt="">
+                <img id='img-main' class="img-responsive" src="assets/hs-deckbuilder.png" alt="">
             </div>
 
             <div class="col-md-4">
@@ -88,13 +102,31 @@
                     <li id = "point2">Dolor Sit Amet</li>
                     <li id = "point3">Consectetur</li>
                 </ul>
-                <h3><a id = 'repo-link' href="">Github Repo</a><h3>
+                <h3><a id = 'repo-link' href="#">Github Repo</a><h3>
             </div>
 
         </div>
         <!-- /.row -->
 
-        <!-- Related Projects Row -->
+        <!-- Contact Item Row -->
+        <div class="row current-contact"  id='contact-main' style='display: none'>
+
+            <div class="col-md-4">
+                <img height="300" height="300"id='img-main'  src="assets/Charles_Powell.png" alt="">
+            </div>
+
+            <div class="col-md-4">
+                <h3>Contact Information</h3>
+                <h4>Email: <a href="mailto:charliepowell1@gmail.com">charliepowell1@gmail.com</a></h4>
+                <h4>Phone: (847) 281-6653</h4>
+                <h4>GitHub: <a href="https://github.com/CharlesPowell">CharlesPowell</a></h4>
+                <h4>LinkedIn: <a href="https://www.linkedin.com/in/chpowell1">chpowell1</a></h4>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <!-- Recent Projects Row -->
         <div class="row">
 
             <div class="col-lg-12">
@@ -102,24 +134,28 @@
             </div>
 
             <div class="col-sm-3 col-xs-6" id="proj1">
+              <h4>Hearthstone Deckbuilder</h4>
                 <a href="#">
                     <img class="img-responsive portfolio-item" src="assets/hs-deckbuilder.png" alt="">
                 </a>
             </div>
 
             <div class="col-sm-3 col-xs-6" id="proj2">
+              <h4>Point of Sale APP</h4>
                 <a href="#">
-                    <img class="img-responsive portfolio-item" src="https://github.com/CharlesPowell/RESTaurant/blob/master/RESTaurant.png?raw=true" alt="">
+                    <img class="img-responsive portfolio-item" src="https://raw.githubusercontent.com/CharlesPowell/RESTaurant/master/RESTaurant.png" alt="">
                 </a>
             </div>
 
             <div class="col-sm-3 col-xs-6" id="proj3">
+              <h4>TriviaBase</h4>
                 <a href="#">
                     <img class="img-responsive portfolio-item" src="assets/triviabase.png" alt="">
                 </a>
             </div>
 
             <div class="col-sm-3 col-xs-6" id="proj4">
+              <h4>D3 Synthesizer</h4>
                 <a href="#">
                     <img class="img-responsive portfolio-item" src="assets/synth.png" alt="">
                 </a>
